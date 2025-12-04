@@ -1,0 +1,99 @@
+##############################
+# Python
+##############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.h5
+*.so
+*.dll
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+
+##############################
+# Virtual Environments
+##############################
+venv/
+ENV/
+env/
+.venv/
+.conda/
+conda_env/
+
+##############################
+# Jupyter Notebook
+##############################
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+##############################
+# Machine Learning Artifacts
+##############################
+# Model weights / outputs
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pickle
+*.pkl
+*.ckpt
+
+# TensorBoard logs
+logs/
+tensorboard/
+tb_logs/
+
+# Data
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+##############################
+# Build / Distribution
+##############################
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+##############################
+# VS Code
+##############################
+.vscode/
+*.code-workspace
+
+##############################
+# Environment / Secrets
+##############################
+*.env
+*.env.*
+.envrc
+secrets.json
+config.json
+
+##############################
+# OS Files
+##############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+##############################
+# Other Tools
+##############################
+.pytest_cache/
+coverage/
+htmlcov/
+.cache/
+.mypy_cache/
+.ruff_cache/
+pytestdebug.log
